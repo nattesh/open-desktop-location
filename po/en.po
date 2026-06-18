@@ -1,0 +1,20 @@
+# English translation for Open Desktop File Location
+# Copyright (C) 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: open-desktop-location@nattesh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-18 21:51+0200\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: extension.js
+msgid "go-to-desktop"
+msgstr "Go to .desktop file"
