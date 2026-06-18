@@ -1,6 +1,8 @@
 # Desktop Shortcut for Gnome Shell
 Light gnome extension that adds an item to the gnome shell icons menu leading to the .desktop file
 
+![alt text](https://i.ibb.co/SDGzt1DN/Screenshot-From-2026-06-18-22-31-39.png "Go to .desktop file example")
+
 ## Installation
 
 ### How to manually install the extension
