@@ -37,7 +37,7 @@ function openNautilusAtPath(filePath) {
         try {
             GLib.spawn_async(null, ['nautilus', dir], null, flags, null);
         } catch (e2) {
-            console.error(`[OpenDesktopLocation] Impossibile aprire Nautilus: ${e2}`);
+            console.error(`[OpenDesktopLocation] Error opening Nautilus: ${e2}`);
         }
     } finally {
         Main.overview.hide();
@@ -87,14 +87,10 @@ function _unpatchAppIcon() {
 
 export default class OpenDesktopLocationExtension extends Extension {
     enable() {
-        this.initTranslations();
-
         _patchAppIcon();
-        console.log('[OpenDesktopLocation] Estensione abilitata (GNOME 42-50)');
     }
 
     disable() {
         _unpatchAppIcon();
-        console.log('[OpenDesktopLocation] Estensione disabilitata');
     }
 }
