@@ -8,14 +8,14 @@ import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 function findDesktopFile(app) {
     if (!app) return null;
 
-    const appInfo = app.get_app_info?.();
+    const appInfo = app.get_app_info();
     if (appInfo) {
-        const filename = appInfo.get_filename?.();
+        const filename = appInfo.get_filename();
         if (filename && GLib.file_test(filename, GLib.FileTest.EXISTS))
             return filename;
     }
 
-    const appId = app.get_id?.();
+    const appId = app.get_id();
     if (!appId) return null;
 
     const dataDirs = [GLib.get_user_data_dir(), ...GLib.get_system_data_dirs()];
