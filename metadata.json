@@ -3,7 +3,7 @@
   "description": "Light gnome extension that adds an item to the gnome shell icons menu leading to the .desktop file.",
   "uuid": "open-desktop-location@nattesh",
   "gettext-domain": "open-desktop-location@nattesh",
-  "shell-version": ["49", "50"],
+  "shell-version": ["49", "50", "51"],
   "url": "https://github.com/nattesh/open-desktop-location",
   "version-name": "1.2",
   "donations": {
